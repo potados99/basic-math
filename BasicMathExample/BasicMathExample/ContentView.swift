@@ -14,7 +14,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!").onTapGesture {
+            Text(SomeMathMagic.saySomething()).onTapGesture {
                 NSLog("1 + 2 is %d.", SomeMathMagic().add(1, 2))
                 
                 NSLog("Accumulated histories: \n\(SomeMathMagic().histories().count)")

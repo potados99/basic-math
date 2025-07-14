@@ -10,12 +10,10 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   spec.ios.deployment_target = '16.6'
 
-  spec.resource_bundles = {
-    'BasicMath' => ['BasicMath/Assets/*.png']
-  }
-
   # 이 라이브러리의 최종 산출물입니다.
   spec.vendored_frameworks = 'BasicMath.xcframework'
+
+  # 개발할 때에는 이걸 쓰는 것도 좋아요.
   #spec.source_files = 'BasicMath/Classes/**/*.{swift,h}'
 
   spec.dependency "SSZipArchive", "~> 2.6.0" # SPM과 이름이 다른 라이브러리

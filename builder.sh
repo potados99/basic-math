@@ -5,7 +5,7 @@ rm -rf build $LIB_NAME.xcframework
 # For iOS Device
 xcodebuild archive \
 -scheme $LIB_NAME \
--workspace "${LIB_NAME}.xcworkspace" \
+-workspace "$LIB_NAME.xcworkspace" \
 -sdk iphoneos \
 -configuration Release \
 -destination "generic/platform=iOS" \
@@ -16,7 +16,7 @@ BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 # For Simulators
 xcodebuild archive \
 -scheme $LIB_NAME \
--workspace "${LIB_NAME}.xcworkspace" \
+-workspace "$LIB_NAME.xcworkspace" \
 -sdk iphoneos \
 -configuration Release \
 -destination "generic/platform=iOS Simulator" \
