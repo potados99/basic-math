@@ -1,16 +1,27 @@
 PODS:
+  - RxBluetoothKit_Airthings (6.3.2):
+    - RxSwift (~> 6.5.0)
+  - RxSwift (6.5.0)
   - SSZipArchive (2.6.0)
 
 DEPENDENCIES:
-  - SSZipArchive (~> 2.6.0)
+  - RxBluetoothKit_Airthings
+  - SSZipArchive (from `External/ZipArchive`)
 
 SPEC REPOS:
   trunk:
-    - SSZipArchive
+    - RxBluetoothKit_Airthings
+    - RxSwift
+
+EXTERNAL SOURCES:
+  SSZipArchive:
+    :path: External/ZipArchive
 
 SPEC CHECKSUMS:
+  RxBluetoothKit_Airthings: 2fbc946605b4064d3bf46cefe294fe60f5585ff5
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SSZipArchive: 8a6ee5677c8e304bebc109e39cf0da91ccef22ea
 
-PODFILE CHECKSUM: 66e15ae9d9dd8044abcd747a9ab219cec788629a
+PODFILE CHECKSUM: 3349fe65f04087914c01dce2450440638b20fa0b
 
 COCOAPODS: 1.16.2

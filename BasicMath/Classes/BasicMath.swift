@@ -8,11 +8,8 @@
 import Foundation
 import CoreData
 
-#if canImport(ZipArchive)
-import ZipArchive
-#elseif canImport(SSZipArchive)
-import SSZipArchive
-#endif
+internal import SSZipArchive
+import RxBluetoothKit_Airthings
 
 public class SomeMathMagic {
     public init() {
@@ -47,3 +44,4 @@ public class SomeMathMagic {
         return (try? context.fetch(request)) ?? []
     }
 }
+

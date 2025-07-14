@@ -1,22 +1,26 @@
 PODS:
   - BasicMath (1.0.1):
-    - SSZipArchive (~> 2.6.0)
-  - SSZipArchive (2.6.0)
+    - RxBluetoothKit_Airthings (~> 6.3.2)
+  - RxBluetoothKit_Airthings (6.3.2):
+    - RxSwift (~> 6.5.0)
+  - RxSwift (6.5.0)
 
 DEPENDENCIES:
   - BasicMath (from `../`)
 
 SPEC REPOS:
   trunk:
-    - SSZipArchive
+    - RxBluetoothKit_Airthings
+    - RxSwift
 
 EXTERNAL SOURCES:
   BasicMath:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BasicMath: 35b2faf328a3526c687287e31d258de2ac1f40c0
-  SSZipArchive: 8a6ee5677c8e304bebc109e39cf0da91ccef22ea
+  BasicMath: ba2c40fd4b5185eec0678670cf089dd3ca4526a9
+  RxBluetoothKit_Airthings: 2fbc946605b4064d3bf46cefe294fe60f5585ff5
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
 
 PODFILE CHECKSUM: 330ece96571ec609000922b913e60c3946e19585
 

@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FBD3711D7485BAFF7FCB69A /* Pods_BasicMathExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7100F73B6829AC2740B293 /* Pods_BasicMathExample.framework */; };
+		0EABA191A851D52ADB1ED2DC /* Pods_BasicMathExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A1FF52191BD3B0DE5149E2 /* Pods_BasicMathExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AF0F90D2E24C3D00022AF3B /* BasicMathExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMathExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF0F9222E24C4250022AF3B /* BasicMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BasicMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AF0F9A12E24D3C40022AF3B /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		345913B9B79E5C64B1DE5E71 /* Pods-BasicMathExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicMathExample.debug.xcconfig"; path = "Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample.debug.xcconfig"; sourceTree = "<group>"; };
-		5D7100F73B6829AC2740B293 /* Pods_BasicMathExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicMathExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		844DB6F05AE8918310736C64 /* Pods-BasicMathExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicMathExample.release.xcconfig"; path = "Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample.release.xcconfig"; sourceTree = "<group>"; };
+		8F49AE1B0E1D4964ED36367A /* Pods-BasicMathExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicMathExample.debug.xcconfig"; path = "Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A1FF52191BD3B0DE5149E2 /* Pods_BasicMathExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicMathExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18228D355F19859139F6A5A /* Pods-BasicMathExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicMathExample.release.xcconfig"; path = "Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FBD3711D7485BAFF7FCB69A /* Pods_BasicMathExample.framework in Frameworks */,
+				0EABA191A851D52ADB1ED2DC /* Pods_BasicMathExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +61,8 @@
 		2AF0F9212E24C4250022AF3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2AF0F9A12E24D3C40022AF3B /* RealmSwift.framework */,
 				2AF0F9222E24C4250022AF3B /* BasicMath.framework */,
-				5D7100F73B6829AC2740B293 /* Pods_BasicMathExample.framework */,
+				C2A1FF52191BD3B0DE5149E2 /* Pods_BasicMathExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -72,8 +70,8 @@
 		FA7FBCBBDCA903133FDCD989 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				345913B9B79E5C64B1DE5E71 /* Pods-BasicMathExample.debug.xcconfig */,
-				844DB6F05AE8918310736C64 /* Pods-BasicMathExample.release.xcconfig */,
+				8F49AE1B0E1D4964ED36367A /* Pods-BasicMathExample.debug.xcconfig */,
+				D18228D355F19859139F6A5A /* Pods-BasicMathExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -85,12 +83,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF0F9182E24C3D20022AF3B /* Build configuration list for PBXNativeTarget "BasicMathExample" */;
 			buildPhases = (
-				491C532DF5577980BB92511B /* [CP] Check Pods Manifest.lock */,
+				7EE78F779CF6F0554FAE2407 /* [CP] Check Pods Manifest.lock */,
 				2AF0F9092E24C3D00022AF3B /* Sources */,
 				2AF0F90A2E24C3D00022AF3B /* Frameworks */,
 				2AF0F90B2E24C3D00022AF3B /* Resources */,
-				6889BAB68F3D5D9CB42FC412 /* [CP] Embed Pods Frameworks */,
-				71D39722F74114E7E68815BC /* [CP] Copy Pods Resources */,
+				3F18ABD2C57DDAF6DA7CCAE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,7 +146,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		491C532DF5577980BB92511B /* [CP] Check Pods Manifest.lock */ = {
+		3F18ABD2C57DDAF6DA7CCAE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE78F779CF6F0554FAE2407 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -169,40 +183,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6889BAB68F3D5D9CB42FC412 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		71D39722F74114E7E68815BC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicMathExample/Pods-BasicMathExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -341,7 +321,7 @@
 		};
 		2AF0F9192E24C3D20022AF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 345913B9B79E5C64B1DE5E71 /* Pods-BasicMathExample.debug.xcconfig */;
+			baseConfigurationReference = 8F49AE1B0E1D4964ED36367A /* Pods-BasicMathExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -371,7 +351,7 @@
 		};
 		2AF0F91A2E24C3D20022AF3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 844DB6F05AE8918310736C64 /* Pods-BasicMathExample.release.xcconfig */;
+			baseConfigurationReference = D18228D355F19859139F6A5A /* Pods-BasicMathExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -16,5 +16,6 @@ Pod::Spec.new do |spec|
   # 개발할 때에는 이걸 쓰는 것도 좋아요.
   #spec.source_files = 'BasicMath/Classes/**/*.{swift,h}'
 
-  spec.dependency "SSZipArchive", "~> 2.6.0" # SPM과 이름이 다른 라이브러리
+  # 내부 의존성들
+  spec.dependency "RxBluetoothKit_Airthings", "~> 6.3.2"
 end
