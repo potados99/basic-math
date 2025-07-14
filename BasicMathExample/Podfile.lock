@@ -1,0 +1,23 @@
+PODS:
+  - BasicMath (1.0.1):
+    - SSZipArchive (~> 2.6.0)
+  - SSZipArchive (2.6.0)
+
+DEPENDENCIES:
+  - BasicMath (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  BasicMath:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BasicMath: 35b2faf328a3526c687287e31d258de2ac1f40c0
+  SSZipArchive: 8a6ee5677c8e304bebc109e39cf0da91ccef22ea
+
+PODFILE CHECKSUM: 330ece96571ec609000922b913e60c3946e19585
+
+COCOAPODS: 1.16.2
