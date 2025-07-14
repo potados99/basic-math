@@ -17,7 +17,7 @@ struct ContentView: View {
             Text("Hello, world!").onTapGesture {
                 NSLog("1 + 2 is %d.", SomeMathMagic().add(1, 2))
                 
-                NSLog("Accumulated histories: \n\(SomeMathMagic().histories())")
+                NSLog("Accumulated histories: \n\(SomeMathMagic().histories().count)")
             }
         }
         .padding()

@@ -23,17 +23,19 @@ public class CoreDataStack {
             if let error = error {
                 fatalError("❌ Failed to load store: \(error)")
             }
+            
+            container.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
+            container.viewContext.automaticallyMergesChangesFromParent = true
         }
 
         return container
     }()
 
-    public var context: NSManagedObjectContext {
-        return persistentContainer.viewContext
-    }
-
+    public lazy var context: NSManagedObjectContext = {
+        return persistentContainer.newBackgroundContext()
+    }()
+   
     public func saveContext() {
-        let context = persistentContainer.viewContext
         if context.hasChanges {
             try? context.save()
         }
